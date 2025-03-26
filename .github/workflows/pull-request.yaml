@@ -29,6 +29,10 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: lintingcheck
+        run: npm run lint:check
+      - name: lintingfix
+        run: npm run lint:fix
 
 
 
